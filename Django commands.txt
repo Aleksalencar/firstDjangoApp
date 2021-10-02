@@ -1,0 +1,9 @@
+>> pip install django
+>> django-adimn startprproject <project_name> //ex. controle_gastos
+>> python manage.py startapp <app_name> //ex. contas
+
+migration descrevem a versão do banco de dados
+>> python manage.py migrate
+cria banco sqlite3
+
+>> python manage.py runserver
